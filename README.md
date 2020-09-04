@@ -15,5 +15,19 @@
 ![](img/punto2Original.JPG)
 ![](img/punto2Power.JPG)
 
+## Clases de equivalencia y fronteras para cada calculadora
+*OriginalScore*
+![](img/originalScore.JPG)
+
+*BonusScore*
+![](img/bonusScore.JPG)
+
+*PowerBonusScore*
+![](ing/powerBonusScore.JPG)
+
+## Resultado de los Test
+
+![](img/test.JPG)
+
 
 

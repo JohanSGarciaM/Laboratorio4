@@ -1,7 +1,9 @@
 package hangman.model;
 public class OriginalScore implements GameScore{
-	private int incorrectCount;
-	private int correctCount;
+	private int initialValue;
+	public OriginalScore(){
+		this.initialValue =100;
+	}
 	/**
 	@pre ninguna 
 	@pos retorna el puntaje que acumula el jugador
@@ -10,10 +12,19 @@ public class OriginalScore implements GameScore{
 	@throws 
 	**/
 	public int calculateScore(int correctCount, int incorrectCount){
-		return 0;
+		if (incorrectCount>9) {
+			return 0;
+		}else{
+			return (initialValue-incorrectCount*(10));
+		}
 	}
 	
 	public int setInitialValue(){
-		return 100;
+		return this.initialValue;
+	}
+
+	public int resetInitialValue(){
+		this.initialValue=100;
+		return this.initialValue;
 	}
 }
