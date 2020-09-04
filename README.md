@@ -29,5 +29,20 @@
 
 ![](img/test.JPG)
 
+# PARTE 2
+
+# 1. Utilizando el HangmanFactoryMethod incluya OriginalScore a la configuración
+![](img/factoryMethod.JPG)
+
+*Adicionalmente importamos las clases necesarias para que se cumpliera*
+
+# Inyección de dependecia GUICE al pom.xml
+
+![](img/guice.JPG)
+
+*Mediante la inyección de dependencias se cambió el comportamiento  donde se utilizó el idioma frances, el tipo de Score .OriginalScore , el diccionario francés y el panel hangman no violento*
+
+![](img/inyeccion.JPG)
+
 
 

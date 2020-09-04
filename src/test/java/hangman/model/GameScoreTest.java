@@ -76,8 +76,6 @@ public class GameScoreTest{
         Assert.assertEquals(score,0);
     }
 
-
-
     /**Clase de equivalencia 3 BonusScore
         penalizar unicamente con 5 unidades por letra incorrecta
         Bonifica con 10 cada letra correcta
@@ -106,8 +104,6 @@ public class GameScoreTest{
         PowerBonusScore powerBonusScore = new PowerBonusScore();
         int score = powerBonusScore.calculateScore(0,10);
         Assert.assertEquals(score,0);
-
-
 
     }/**Clase de equivalencia 3 PowerBonusScore
         penalizar unicamente con 8 unidades por letra incorrecta
